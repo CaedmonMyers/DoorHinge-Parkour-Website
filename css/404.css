@@ -4,13 +4,30 @@
 
 
 .gif404 {
-  width: 80%;
-  margin: auto;
+  padding-left: 10%;
+  align-items: center;
+  width: 90%;
 }
 
 h1 {
   color: white;
   font-family: Helvetica;
+}
+
+h4{
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 2em;
+  color: white;
+}
+
+p{
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 1.2em;
+  color: #fff;
 }
 
 body {
