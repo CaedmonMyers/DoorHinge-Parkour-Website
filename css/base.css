@@ -37,6 +37,15 @@ a:hover{
 	color: white;
 }
 
+.contactButtons {
+	text-decoration: underline;
+	color: white;
+	text-align: left;
+	font-family: Helvetica;
+	padding: 20px;
+	margin: auto;
+}
+
 .whiteButtonText {
 	color: white;
 }
@@ -453,4 +462,5 @@ li:hover {
     border-bottom: 1px solid #444;
   }
 }
+
 
