@@ -19,6 +19,36 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.socialIcon {
+	height: 40px;
+	width: 40px;
+	padding-left: 10px;
+    filter: invert(100%) sepia(95%) saturate(20%) hue-rotate(315deg) brightness(104%) contrast(104%);
+}
+
+.socialIcon:hover {
+	height: 40px;
+	width: 40px;
+	padding-left: 10px;
+    filter: invert(0%) sepia(9%) saturate(300%) hue-rotate(22deg) brightness(89%) contrast(101%);
+}
+
+.socialIconMenu {
+	height: 30px;
+	width: 30px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+    filter: invert(100%) sepia(95%) saturate(20%) hue-rotate(315deg) brightness(104%) contrast(104%);
+}
+
+.socialIconMenu:hover {
+	height: 30px;
+	width: 30px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+    filter: invert(0%) sepia(9%) saturate(300%) hue-rotate(22deg) brightness(89%) contrast(101%);
+}
+
 br {
 	height: 20px;
 }
@@ -163,19 +193,6 @@ a: visited {
 
 .navBarTitle:hover {
 	text-decoration: underline;
-}
-
-.socialIcon {
-	height: 40px;
-	width: 50px;
-	padding-left: 10px;
-}
-
-.socialIconMenu {
-	height: 30px;
-	width: 35px;
-	padding-left: 10px;
-	padding-bottom: 5px;
 }
 
 .doorhingeapps {
