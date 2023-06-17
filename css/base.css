@@ -4,7 +4,8 @@ h1 {
 }
 
 body {
-	background: linear-gradient(#B414FF, #fdc100);
+	/*background: linear-gradient(#B414FF, #fdc100);*/
+	background: linear-gradient(180deg, #FC2C50, #FFB264, #FFE621, #3CC04D, #26B9FF, #C65EFF);
 	background-attachment: fixed;
 	/*background-color: #fdc100;*/
 }
@@ -12,6 +13,10 @@ body {
 img {
   width: 100%; /* takes the 100 % width of its container (.box div)*/
   height: 100%; /* takes the 100 % height of its container (.box div)*/
+}
+
+.animatedLogo {
+	border-radius: 500px;
 }
 
 .titleImage {
