@@ -4,7 +4,8 @@ h1 {
 }
 
 body {
-	background: linear-gradient(#B414FF, #fdc100);
+	/*background: linear-gradient(#B414FF, #fdc100);*/
+	background-color: #FED44D;
 	/*background: linear-gradient(180deg, #FC2C50, #FFB264, #FFE621, #3CC04D, #26B9FF, #C65EFF);*/
 	background-attachment: fixed;
 	/*background-color: #fdc100;*/
@@ -18,10 +19,10 @@ img {
 .animatedLogo {
 	border-radius: 500px;
 }
-
+ 
 .titleImage {
-	border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/*	border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .socialIcon {
@@ -131,13 +132,16 @@ a: visited {
 	width: 90%;
 	margin: auto;
 	border-radius: 15px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #fdc100;
+	box-shadow: -7px -7px 20px #FDC100, 4px 4px 10px rgba(0, 0, 0, 0.15);
+	transition: all 2s ease;
 }
 
 .compareSection {
 	width: 50%;
 	border-radius: 15px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #fdc100;
+	box-shadow: -7px -7px 20px #FDC100, 4px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .listTitle {
@@ -265,22 +269,13 @@ a: visited {
 	color: white;
 	padding: 20px;
 	font-family: Helvetica;
-	background-color: #444;
-	border-radius: 15px;
+	background-color: #FDC100;
+	box-shadow: -5px -5px 20px rgba(255, 255, 255, .25), 4px 4px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 100px;
 }
 
 .fillButtons:hover{
-	color: white;
-	font-weight: bold;
-	text-decoration: none;
-	text-align: center;
-	padding: 16px;
-	font-family: Helvetica;
-	background-color: #fdc100;
-	border-style: solid;
-	border-color: #444;
-	border-width: 4px;
-	border-radius: 15px;
+	box-shadow: inset -4px -4px 20px rgba(255, 255, 255, .25), inset 4px 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 .Hspacer10 {
@@ -475,6 +470,12 @@ li:hover {
     width: 100%;
     justify-content: center;
     align-items: center;
+	background: rgba(253, 193, 0, 0.3);
+border-radius: 0px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.3);
   }
   #menu-toggle ~ .menu li {
     height: 0;
@@ -484,7 +485,7 @@ li:hover {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
   #menu-toggle:checked ~ .menu li {
-    border: 0.5px solid #444;
+	border: 0.5px solid rgba(255, 255, 255, 0.3);
     height: 3em;
     padding: 0.85em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -497,7 +498,7 @@ li:hover {
     padding: 0.5em 0;
     width: 100%;
     color: white;
-    background-color: rgba(253, 193, 0, 0.95);
+    /*background-color: rgba(253, 193, 0, 0.95);*/
   }
 
   .menu > li:not(:last-child) {
